@@ -1,4 +1,4 @@
-module gitlab.com/superbillpay/supernetgolang
+module github.com/SbFinanceFbd/golib
 
 go 1.16
 

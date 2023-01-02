@@ -4,7 +4,7 @@ import (
 	"database/sql"
 	"errors"
 
-	l "gitlab.com/superbillpay/supernetgolang/logger"
+	l "github.com/SbFinanceFbd/golib/logger"
 
 	_ "github.com/lib/pq"
 )
