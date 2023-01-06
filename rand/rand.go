@@ -22,3 +22,9 @@ func StringWithCharset(length int, charset string) string {
 func String(length int) string {
 	return StringWithCharset(length, charset)
 }
+
+func GetCurrentTimeMilliSeconds() int64 {
+	now := time.Now()
+	unixNano := now.UnixNano()
+	return unixNano / 1000000
+}
