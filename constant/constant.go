@@ -4,6 +4,10 @@ const (
 	YES = "YES"
 	NO  = "NO"
 
+	//Customer status
+	CUST_ACTIVE   = "ACTIVE"
+	CUST_INACTIVE = "INACTIVE"
+
 	// Loan status
 	LOAN_REGULAR     = "REGULAR"
 	LOAN_GRACEPERIOD = "GRACEPERIOD"
