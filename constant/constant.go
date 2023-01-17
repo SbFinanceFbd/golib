@@ -4,6 +4,22 @@ const (
 	YES = "YES"
 	NO  = "NO"
 
+	// Loan Pack status
+	LOAN_PACK_ACTIVE   = "ACTIVE"
+	LOAN_PACK_INACTIVE = "INACTIVE"
+
+	// RD Pack status
+	RD_PACK_ACTIVE   = "ACTIVE"
+	RD_PACK_INACTIVE = "INACTIVE"
+
+	// FD Pack status
+	FD_PACK_ACTIVE   = "ACTIVE"
+	FD_PACK_INACTIVE = "INACTIVE"
+
+	// Pigmy Pack Status
+	PIGMY_PACK_ACTIVE   = "ACTIVE"
+	PIGMY_PACK_INACTIVE = "INACTIVE"
+
 	//Customer status
 	CUST_ACTIVE   = "ACTIVE"
 	CUST_INACTIVE = "INACTIVE"
