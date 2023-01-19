@@ -6,6 +6,7 @@ const (
 	LI  = "LI"  // Loan Interest
 	LC  = "LC"  // Loan Collection
 	LCM = "LCM" // Loan Collection Mistake
+	LPC = "LPC" // Loan Collection Mistake
 	RC  = "RC"  // RD Collection
 	RCM = "RCM" // RD Collection Mistake
 	RM  = "RM"  // RD Maturity
@@ -21,4 +22,5 @@ const (
 	PI  = "PI"  // Pigmy Interest
 	PM  = "PM"  // Pigmy Maturity
 	PMM = "PMM" // Pigmy Maturity Mistake
+	BT  = "BT"  // Branch Transfer
 )

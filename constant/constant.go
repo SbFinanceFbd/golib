@@ -25,23 +25,25 @@ const (
 	CUST_INACTIVE = "INACTIVE"
 
 	// Loan status
-	LOAN_REGULAR     = "REGULAR"
-	LOAN_GRACEPERIOD = "GRACEPERIOD"
-	LOAN_IRREGULAR   = "IRREGULAR"
-	LOAN_INACTIVE    = "INACTIVE"
-	LOAN_CLOSED      = "CLOSED"
+	LOAN_REGULAR     = "REGULAR"     // REGULAR Payment
+	LOAN_GRACEPERIOD = "GRACEPERIOD" // specific grace period
+	LOAN_IRREGULAR   = "IRREGULAR"   // not REGULAR
+	LOAN_INACTIVE    = "INACTIVE"    // Settlement
+	LOAN_CLOSED      = "CLOSED"      // Loan Account Closed
 
 	// RD status
-	RD_ACTIVE   = "ACTIVE"
-	RD_INACTIVE = "INACTIVE"
-	RD_HOLD     = "HOLD"
-	RD_CLOSED   = "CLOSED"
+	NO_FIRST_PAYMENT = "NO_FIRST_PAYMENT"
+	RD_ACTIVE        = "ACTIVE"   // once payment made change status to ACTIVE
+	RD_INACTIVE      = "INACTIVE" // Customer can not get Matruity amount, interest amount
+	RD_HOLD          = "HOLD"     // Hold for Loan purpose or time took to transafer amount to customer
+	RD_CLOSED        = "CLOSED"   // Rd Account Closed with payment of maturity amount
 
 	// FD status
-	FD_ACTIVE   = "ACTIVE"
-	FD_INACTIVE = "INACTIVE"
-	FD_HOLD     = "HOLD"
-	FD_CLOSED   = "CLOSED"
+	NOT_DEPOSITED = "NOT_DEPOSITED"
+	FD_ACTIVE     = "ACTIVE"   // once DEPOSITED change status to ACTIVE
+	FD_INACTIVE   = "INACTIVE" // Customer can not get Matruity amount, interest amount
+	FD_HOLD       = "HOLD"     // Hold for Loan purpose or time took to transafer amount to customer
+	FD_CLOSED     = "CLOSED"   // Fd Account Closed with payment of maturity amount
 
 	// Pigmy status
 	PIGMY_ACTIVE      = "ACTIVE"
