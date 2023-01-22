@@ -25,11 +25,11 @@ const (
 	CUST_INACTIVE = "INACTIVE"
 
 	// Loan status
-	LOAN_REGULAR     = "REGULAR"     // REGULAR Payment
-	LOAN_GRACEPERIOD = "GRACEPERIOD" // specific grace period
-	LOAN_IRREGULAR   = "IRREGULAR"   // not REGULAR
-	LOAN_INACTIVE    = "INACTIVE"    // Settlement
-	LOAN_CLOSED      = "CLOSED"      // Loan Account Closed
+	LOAN_REGULAR        = "REGULAR"        // REGULAR Payment
+	LOAN_IRREGULAR      = "IRREGULAR"      // not REGULAR
+	LOAN_RENEWAL_PERIOD = "RENEWAL_PERIOD" //
+	LOAN_OVER_DUE       = "OVER_DUE"       // number of emis or number days completed.
+	LOAN_CLOSED         = "CLOSED"         // Loan Account Closed
 
 	// RD status
 	NO_FIRST_PAYMENT = "NO_FIRST_PAYMENT"
