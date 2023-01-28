@@ -38,12 +38,12 @@ const (
 	LOAN_OVER_DUE       = "OVER_DUE"       // number of emis or number days completed.
 	LOAN_CLOSED         = "CLOSED"         // Loan Account Closed
 
-	// RD status
-	NO_FIRST_PAYMENT = "NO_FIRST_PAYMENT"
-	RD_ACTIVE        = "ACTIVE"   // once payment made change status to ACTIVE
-	RD_INACTIVE      = "INACTIVE" // Customer can not get Matruity amount, interest amount
-	RD_HOLD          = "HOLD"     // Hold for Loan purpose or time took to transafer amount to customer
-	RD_CLOSED        = "CLOSED"   // Rd Account Closed with payment of maturity amount
+	RD_DEPOSIT_PERIOD  = "DEPOSIT_PERIOD"  // Customer desposit amount RD account
+	RD_MATURITY_PERIOD = "MATURITY_PERIOD" // Customer Deposit period completed . and waiting for maturity amount
+	RD_HOLD            = "HOLD"            // Hold for Loan purpose or time took to transafer amount to customer
+	RD_CLOSE           = "CLOSE"           // Rd Account Closed with payment of maturity amount
+	RD_FORCE_CLOSE     = "FORCE_CLOSE"     // Rd Account Force Closed(Break) with payment of maturity amount
+	RD_INACTIVE        = "INACTIVE"        // Customer can not get Matruity amount, interest amount
 
 	// FD status
 	NOT_DEPOSITED = "NOT_DEPOSITED"
