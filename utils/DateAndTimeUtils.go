@@ -3,7 +3,8 @@ package utils
 import (
 	"fmt"
 	"strconv"
-	"time"
+
+	"github.com/SbFinanceFbd/golib/time"
 )
 
 func GetYears(difference time.Duration) int64 {
