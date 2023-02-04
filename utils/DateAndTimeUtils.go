@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/SbFinanceFbd/golib/time"
+	"time"
 )
 
 func GetYears(difference time.Duration) int64 {
