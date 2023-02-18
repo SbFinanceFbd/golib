@@ -1,12 +1,13 @@
 package txnCategory
 
 const (
+	IF  = "IF"  // Initial found
 	LS  = "LS"  // Loan Sanction
 	LSM = "LSM" // Loan Sanction Mistake
 	LI  = "LI"  // Loan Interest
 	LC  = "LC"  // Loan Collection
 	LCM = "LCM" // Loan Collection Mistake
-	LPC = "LPC" // Loan Collection Mistake
+	LPC = "LPC" // Loan Penalty Collection
 	RC  = "RC"  // RD Collection
 	RCM = "RCM" // RD Collection Mistake
 	RM  = "RM"  // RD Maturity
