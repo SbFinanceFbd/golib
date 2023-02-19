@@ -1,29 +1,29 @@
 package txnCategory
 
 const (
-	INF   = "INF"   // Initial found
-	IVF   = "IVF"   // Invest found
-	LS    = "LS"    // Loan Sanction
-	LSM   = "LSM"   // Loan Sanction Mistake
-	LI    = "LI"    // Loan Interest
-	LC    = "LC"    // Loan Collection
-	LCM   = "LCM"   // Loan Collection Mistake
-	LPC   = "LPC"   // Loan Penalty Collection
-	RC    = "RC"    // RD Collection
-	RCM   = "RCM"   // RD Collection Mistake
-	RM    = "RM"    // RD Maturity
-	RMM   = "RMM"   // RD Maturity Mistake
-	RI    = "RI"    // RD Interest
-	FC    = "FC"    // FD Collection
-	FCM   = "FCM"   // FD Collection Mistake
-	FI    = "FI"    // FD Interest
-	FM    = "FM"    // FD Maturity
-	FMM   = "FMM"   // FD Maturity Mistake
-	PC    = "PC"    // Pigmy Collection
-	PCM   = "PCM"   // Pigmy Collection Mistake
-	PI    = "PI"    // Pigmy Interest
-	PM    = "PM"    // Pigmy Maturity
-	PMM   = "PMM"   // Pigmy Maturity Mistake
-	BT    = "BT"    // Branch Transfer
-	OTHER = "OTHER" // OTHER Expenditure
+	INF   = "INF"   // Initial found (CR)
+	IVF   = "IVF"   // Invest found (CR)
+	LS    = "LS"    // Loan Sanction (DB)
+	LSM   = "LSM"   // Loan Sanction Mistake (CR)
+	LI    = "LI"    // Loan Interest (CR)
+	LC    = "LC"    // Loan Collection (CR)
+	LCM   = "LCM"   // Loan Collection Mistake (DB)
+	LPC   = "LPC"   // Loan Penalty Collection (CR)
+	RC    = "RC"    // RD Collection (CR)
+	RCM   = "RCM"   // RD Collection Mistake (DB)
+	RM    = "RM"    // RD Maturity (DB)
+	RMM   = "RMM"   // RD Maturity Mistake (CR)
+	RI    = "RI"    // RD Interest (DB)
+	FC    = "FC"    // FD Collection (CR)
+	FCM   = "FCM"   // FD Collection Mistake (DB)
+	FI    = "FI"    // FD Interest (DB)
+	FM    = "FM"    // FD Maturity (DB)
+	FMM   = "FMM"   // FD Maturity Mistake (CR)
+	PC    = "PC"    // Pigmy Collection (CR)
+	PCM   = "PCM"   // Pigmy Collection Mistake (DB)
+	PI    = "PI"    // Pigmy Interest (DB)
+	PM    = "PM"    // Pigmy Maturity (DB)
+	PMM   = "PMM"   // Pigmy Maturity Mistake (CR)
+	BT    = "BT"    // Branch Transfer (BOTH CR DB)
+	OTHER = "OTHER" // OTHER Expenditure (DB)
 )
