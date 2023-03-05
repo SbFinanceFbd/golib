@@ -12,7 +12,9 @@ var Info *log.Logger
 var Debug *log.Logger
 
 func InitLogger(fileName, appName string) {
-	f, err := os.OpenFile(fileName, os.O_WRONLY|os.O_CREATE|os.O_APPEND, 0600)
+	path := "log"
+	_ = os.Mkdir(path, os.ModePerm)
+	f, err := os.OpenFile(path+"/"+fileName, os.O_WRONLY|os.O_CREATE|os.O_APPEND, 0600)
 	if err != nil {
 		log.SetFlags(log.Lshortfile | log.LstdFlags | log.Lmicroseconds)
 		log.Println("Error opening file:", err)
