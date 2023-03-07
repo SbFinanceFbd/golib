@@ -58,4 +58,6 @@ const (
 	PIGMY_HAS_LOAN    = "HAS_LOAN"
 	PIGMY_LOAN_CLOSED = "LOAN_CLOSED"
 	PIGMY_CLOSED      = "CLOSED"
+
+	DATE_FORMATE = "^\\d{4}-(0[1-9]|1[012])-(0[1-9]|[12]\\d|3[01])$" // YYYYMMDD
 )
