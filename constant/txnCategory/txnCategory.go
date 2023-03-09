@@ -9,6 +9,7 @@ const (
 	LC    = "LC"    // Loan Collection (CR)
 	LCM   = "LCM"   // Loan Collection Mistake (DB)
 	LPC   = "LPC"   // Loan Penalty Collection (CR)
+	LDP   = "LDP"   // Loan DisCount Pay (DB)
 	RC    = "RC"    // RD Collection (CR)
 	RCM   = "RCM"   // RD Collection Mistake (DB)
 	RM    = "RM"    // RD Maturity (DB)
