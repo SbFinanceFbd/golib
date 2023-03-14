@@ -3,9 +3,9 @@ package constant
 const (
 	YES = "YES"
 	NO  = "NO"
-	
+
 	FORCE_CLOSE = "FORCE_CLOSE"
-	CLOSE = "CLOSE"
+	CLOSE       = "CLOSE"
 
 	PAY_TYPES_DAILY       = "DAILY"
 	PAY_TYPES_WEEKLY      = "WEEKLY"
@@ -49,11 +49,11 @@ const (
 	RD_INACTIVE        = "INACTIVE"        // Customer can not get Matruity amount, interest amount
 
 	// FD status
-	FD_ACTIVE     = "ACTIVE"   // once DEPOSITED change status to ACTIVE
-	FD_INACTIVE   = "INACTIVE" // Customer can not get Matruity amount, interest amount
-	FD_HOLD       = "HOLD"     // Hold for Loan purpose or time took to transafer amount to customer
-	FD_CLOSED     = "CLOSED"   // Fd Account Closed with payment of maturity amount
-	FD_FORCE_CLOSED     = "FORCE_CLOSED"   // Fd Account Closed with payment of maturity amount and without Interest amount
+	FD_ACTIVE   = "ACTIVE"   // once DEPOSITED change status to ACTIVE
+	FD_INACTIVE = "INACTIVE" // Customer can not get Matruity amount, interest amount
+	FD_HOLD     = "HOLD"     // Hold for Loan purpose or time took to transafer amount to customer
+	FD_CLOSED   = "CLOSED"   // Fd Account Closed with payment of maturity amount
+	//FD_FORCE_CLOSED     = "FORCE_CLOSED"   // Fd Account Closed with payment of maturity amount and without Interest amount
 
 	// Pigmy status
 	PIGMY_ACTIVE      = "ACTIVE"
