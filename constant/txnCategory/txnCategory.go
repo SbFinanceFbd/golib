@@ -18,6 +18,7 @@ const (
 	FC    = "FC"    // FD Collection (CR)
 	FCM   = "FCM"   // FD Collection Mistake (DB)
 	FI    = "FI"    // FD Interest (DB)
+	FIFR  = "FIFR"  // FD Interest Force close Rollback (CR)
 	FP    = "FP"    // FD Principle (DB)
 	FPM   = "FPM"   // FD Principle Mistake (CR)
 	PC    = "PC"    // Pigmy Collection (CR)
