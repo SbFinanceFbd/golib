@@ -3,6 +3,9 @@ package constant
 const (
 	YES = "YES"
 	NO  = "NO"
+	
+	ACTIVE   = "ACTIVE"
+	INACTIVE = "INACTIVE"
 
 	FORCE_CLOSE = "FORCE_CLOSE"
 	CLOSE       = "CLOSE"
