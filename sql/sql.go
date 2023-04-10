@@ -108,6 +108,29 @@ func (obj *Database) Query(query string, args ...interface{}) (row *sql.Rows, er
 	return
 }
 
+func (obj *Database) QueryRow(query string, args ...interface{}) (row *sql.Row, err error) {
+	action := "::Query::"
+	if obj.Type == "postgres" {
+		err = obj.ConnPtr.Ping()
+		if err != nil {
+			l.Error.Printf("%v Error-> %v \n", action, err)
+			err = errors.New("DB ping fail")
+			return
+		}
+	}
+	if obj.Type == "mysql" {
+		err = obj.ConnPtr.Ping()
+		if err != nil {
+			l.Error.Printf("%v Error-> %v \n", action, err)
+			err = errors.New("DB ping fail")
+			return
+		}
+	}
+
+	row = obj.ConnPtr.QueryRow(query, args...)
+	return
+}
+
 func (obj *Database) Exec(query string, args ...interface{}) (result sql.Result, err error) {
 	action := "::Exec::"
 	if obj.Type == "postgres" {
