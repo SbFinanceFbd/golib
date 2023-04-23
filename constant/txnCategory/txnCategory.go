@@ -1,8 +1,12 @@
 package txnCategory
 
 const (
-	INF       = "INF"       // Initial found (CR)
-	IVF       = "IVF"       // Invest found (CR)
+	INF = "INF" // Initial fund (CR)
+	// INFM       = "INFM"       // Initial fund Mistake (CR/DB)
+	IVF = "IVF" // Invest fund (CR)
+	// IVFM       = "IVFM"       // Invest fund (CR)
+	IVWF = "IVWF" // Invest Withdraw fund (CR)
+	// IVWFM      = "IVWFM"      // Invest Withdraw fund (CR)
 	LS        = "LS"        // Loan Sanction (DB)
 	LSM       = "LSM"       // Loan Sanction Mistake (CR)
 	LI        = "LI"        // Loan Interest (CR)
