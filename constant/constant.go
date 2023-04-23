@@ -3,7 +3,12 @@ package constant
 const (
 	YES = "YES"
 	NO  = "NO"
-	
+
+	INITIATED = "INITIATED"
+	PENDING   = "PENDING"
+	APPROVED  = "APPROVED"
+	DECLINED  = "DECLINED"
+
 	ACTIVE   = "ACTIVE"
 	INACTIVE = "INACTIVE"
 
