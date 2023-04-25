@@ -39,7 +39,7 @@ const (
 	PIGMY_PACK_ACTIVE   = "ACTIVE"
 	PIGMY_PACK_INACTIVE = "INACTIVE"
 
-	//Customer status
+	//Member status
 	CUST_ACTIVE   = "ACTIVE"
 	CUST_INACTIVE = "INACTIVE"
 
@@ -50,17 +50,17 @@ const (
 	LOAN_OVER_DUE       = "OVER_DUE"       // number of emis or number days completed.
 	LOAN_CLOSED         = "CLOSED"         // Loan Account Closed
 
-	RD_DEPOSIT_PERIOD  = "DEPOSIT_PERIOD"  // Customer desposit amount RD account
-	RD_MATURITY_PERIOD = "MATURITY_PERIOD" // Customer Deposit period completed . and waiting for maturity amount
-	RD_HOLD            = "HOLD"            // Hold for Loan purpose or time took to transafer amount to customer
+	RD_DEPOSIT_PERIOD  = "DEPOSIT_PERIOD"  // Member desposit amount RD account
+	RD_MATURITY_PERIOD = "MATURITY_PERIOD" // Member Deposit period completed . and waiting for maturity amount
+	RD_HOLD            = "HOLD"            // Hold for Loan purpose or time took to transafer amount to member
 	RD_CLOSE           = "CLOSE"           // Rd Account Closed with payment of maturity amount
 	RD_FORCE_CLOSE     = "FORCE_CLOSE"     // Rd Account Force Closed(Break) with payment of maturity amount
-	RD_INACTIVE        = "INACTIVE"        // Customer can not get Matruity amount, interest amount
+	RD_INACTIVE        = "INACTIVE"        // Member can not get Matruity amount, interest amount
 
 	// FD status
 	FD_ACTIVE   = "ACTIVE"   // once DEPOSITED change status to ACTIVE
-	FD_INACTIVE = "INACTIVE" // Customer can not get Matruity amount, interest amount
-	FD_HOLD     = "HOLD"     // Hold for Loan purpose or time took to transafer amount to customer
+	FD_INACTIVE = "INACTIVE" // Member can not get Matruity amount, interest amount
+	FD_HOLD     = "HOLD"     // Hold for Loan purpose or time took to transafer amount to member
 	FD_CLOSED   = "CLOSED"   // Fd Account Closed with payment of maturity amount
 	//FD_FORCE_CLOSED     = "FORCE_CLOSED"   // Fd Account Closed with payment of maturity amount and without Interest amount
 
