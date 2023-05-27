@@ -4,6 +4,9 @@ const (
 	YES = "YES"
 	NO  = "NO"
 
+	BEFORE = "BEFORE"
+	AFTER  = "AFTER"
+
 	INITIATED = "INITIATED"
 	PENDING   = "PENDING"
 	APPROVED  = "APPROVED"

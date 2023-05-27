@@ -37,7 +37,7 @@ func (obj *Database) Connect() (err error) {
 		conn_str = obj.Username + ":" + obj.Password +
 			"@" + "tcp" + "(" + obj.Ip + ":" + obj.Port + ")" + "/" + obj.Schema
 
-		//user:password@tcp(localhost:5555)/dbname
+		//user:password@tcp(192.168.0.5:5555)/dbname
 		//conn_str = fmt.Sprintf("server=%s;user id=%s;password=%s;port=%s;database=%s;encrypt=disable", obj.Ip, obj.Username, obj.Password, obj.Port, obj.Schema)
 	} else {
 		err = errors.New("Unsupported DB type")
